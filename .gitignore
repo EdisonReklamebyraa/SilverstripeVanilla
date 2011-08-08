@@ -1,0 +1,8 @@
+_git
+assets
+tags
+.sass-cache
+.liverelaod
+#*#
+.#*
+.DS_Store
