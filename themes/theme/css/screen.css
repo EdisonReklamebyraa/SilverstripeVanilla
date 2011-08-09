@@ -61,10 +61,20 @@ body a:hover {
 }
 /* line 32, ../sass/screen.scss */
 .container #Navigation {
-  padding: 0.5em 0;
   background-color: #DDD;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: #aaaaaa 1px 1px 2px;
+  -webkit-box-shadow: #aaaaaa 1px 1px 2px;
+  -o-box-shadow: #aaaaaa 1px 1px 2px;
+  box-shadow: #aaaaaa 1px 1px 2px;
+  padding: 0.5em 0;
 }
-/* line 34, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .container #Navigation ul {
   list-style-type: none;
   margin: 0;
@@ -76,28 +86,39 @@ body a:hover {
   padding: 0px;
   display: inline;
 }
-/* line 38, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .container #Navigation ul li {
   padding: 0.5em 1em;
 }
-/* line 48, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .container #Breadcrumbs {
   font-size: 80%;
   margin: 0 1em;
+  height: 2em;
 }
-/* line 52, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .container #Sidebar {
   background-color: #DDD;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: #aaaaaa 1px 1px 2px;
+  -webkit-box-shadow: #aaaaaa 1px 1px 2px;
+  -o-box-shadow: #aaaaaa 1px 1px 2px;
+  box-shadow: #aaaaaa 1px 1px 2px;
   display: inline;
   float: left;
   width: 16.667%;
   margin-right: 2.083%;
 }
-/* line 55, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .container #Sidebar h3 {
   padding: 0 0 0 1em;
 }
-/* line 58, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .container #Sidebar #SideNavigation {
   margin: 0;
   padding: 0;
@@ -105,7 +126,7 @@ body a:hover {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .container #Sidebar #SideNavigation li {
   padding: 0.5em 1em;
 }

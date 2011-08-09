@@ -1,7 +1,7 @@
 
-    <% if Level(2) %>
+
     <% include BreadCrumbs %>
-    <% end_if %>
+
     <% include SideBar %>
 
     <div id="Content">

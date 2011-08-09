@@ -30,7 +30,10 @@ body{
 
   #Navigation
   {
-   padding: $m/2 0;
+    background-color: #DDD;
+    @include border-radius;
+    @include box-shadow($quiet-color 1px 1px 2px);
+    padding: $m/2 0;
     ul{
       @include inline-list;
       margin: 0;
@@ -41,16 +44,20 @@ body{
       }
 
     }
-    background-color: #DDD;
-  }
 
+  }
   #Breadcrumbs
   {
     font-size: 80%;
-    margin: 0 $m
+    margin: 0 $m;
+    height: $m*2;
+
+
   }
   #Sidebar{
     background-color: #DDD;
+    @include border-radius;
+    @include box-shadow($quiet-color 1px 1px 2px);
     @include columns(3);
     h3{
       padding: 0 0 0 $m;
@@ -61,8 +68,6 @@ body{
       @include no-bullet;
       li{
         padding: $m/2 $m;
-
-
       }
     }
   }

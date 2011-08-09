@@ -1,5 +1,6 @@
-<% if Level(2) %>
-	<div id="Breadcrumbs">
-	   	<p>$Breadcrumbs</p>
-	</div>
-<% end_if %>
+
+  <div id="Breadcrumbs">
+    <% if Level(2) %>
+      <p>$Breadcrumbs</p>
+      <% end_if %>
+  </div>
