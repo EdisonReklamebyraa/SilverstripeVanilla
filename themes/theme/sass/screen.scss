@@ -1,0 +1,71 @@
+// Imports -------------------------------------------------------------------
+
+@import "base";
+
+/* Layout ------------------------------------------------------------------*/
+
+
+body{
+
+  font-family: $base-font-family;
+  @include establish-baseline(13px);
+  a{
+    @include link-colors($loud-color, $loud-color, $loud-color,  $loud-color,  $loud-color);
+    @include hover-link;
+
+  }
+
+  color: $font-color;
+
+
+}
+
+.container {
+  @include container;
+
+
+  #Content{
+    @include columns(13);
+  }
+
+  #Navigation
+  {
+   padding: $m/2 0;
+    ul{
+      @include inline-list;
+      margin: 0;
+      padding: 0;
+      li{
+        padding: $m/2 $m;
+
+      }
+
+    }
+    background-color: #DDD;
+  }
+
+  #Breadcrumbs
+  {
+    font-size: 80%;
+    margin: 0 $m
+  }
+  #Sidebar{
+    background-color: #DDD;
+    @include columns(3);
+    h3{
+      padding: 0 0 0 $m;
+    }
+    #SideNavigation{
+      margin: 0;
+      padding: 0;
+      @include no-bullet;
+      li{
+        padding: $m/2 $m;
+
+
+      }
+    }
+  }
+
+}
+

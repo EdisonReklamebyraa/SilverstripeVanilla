@@ -1,0 +1,111 @@
+/* Layout ------------------------------------------------------------------*/
+/* line 8, ../sass/screen.scss */
+body {
+  font-family: Verdana, Tahoma, Helvetica, Arial, sans-serif;
+  color: #444444;
+}
+/* line 51, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body body {
+  font-size: 81.25%;
+  line-height: 1.385em;
+}
+/* line 55, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body html > body {
+  font-size: 13px;
+}
+/* line 12, ../sass/screen.scss */
+body a {
+  color: #111111;
+  text-decoration: none;
+}
+/* line 18, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:visited {
+  color: #111111;
+}
+/* line 21, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:focus {
+  color: #111111;
+}
+/* line 24, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:hover {
+  color: #111111;
+}
+/* line 27, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+body a:active {
+  color: #111111;
+}
+/* line 4, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
+body a:hover {
+  text-decoration: underline;
+}
+
+/* line 23, ../sass/screen.scss */
+.container {
+  *zoom: 1;
+  margin: auto;
+  width: 96em;
+  max-width: 100%;
+}
+/* line 38, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 27, ../sass/screen.scss */
+.container #Content {
+  display: inline;
+  float: left;
+  width: 79.167%;
+  margin-right: 2.083%;
+}
+/* line 32, ../sass/screen.scss */
+.container #Navigation {
+  padding: 0.5em 0;
+  background-color: #DDD;
+}
+/* line 34, ../sass/screen.scss */
+.container #Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 5, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+.container #Navigation ul, .container #Navigation ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+/* line 38, ../sass/screen.scss */
+.container #Navigation ul li {
+  padding: 0.5em 1em;
+}
+/* line 48, ../sass/screen.scss */
+.container #Breadcrumbs {
+  font-size: 80%;
+  margin: 0 1em;
+}
+/* line 52, ../sass/screen.scss */
+.container #Sidebar {
+  background-color: #DDD;
+  display: inline;
+  float: left;
+  width: 16.667%;
+  margin-right: 2.083%;
+}
+/* line 55, ../sass/screen.scss */
+.container #Sidebar h3 {
+  padding: 0 0 0 1em;
+}
+/* line 58, ../sass/screen.scss */
+.container #Sidebar #SideNavigation {
+  margin: 0;
+  padding: 0;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 62, ../sass/screen.scss */
+.container #Sidebar #SideNavigation li {
+  padding: 0.5em 1em;
+}
