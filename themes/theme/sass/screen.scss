@@ -6,53 +6,51 @@
 
 
 body{
-
   font-family: $base-font-family;
-  @include establish-baseline(13px);
   a{
     @include link-colors($loud-color, $loud-color, $loud-color,  $loud-color,  $loud-color);
     @include hover-link;
-
   }
-
   color: $font-color;
-
-
 }
 
-.container {
+#Navigation
+{
+  background-color: $grey;
+  @include box-shadow($quiet-color 1px 1px 2px);
+  padding:  0;
+  ul{
+    @include container;
+    margin: 0;
+    padding: 0;
+    li{
+      padding: $m/2 $m;
+      float: right;
+      a
+      {
+        @include link-colors($green, $blue, $green, $green, $green);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#top
+{
   @include container;
+}
 
+#Breadcrumbs
+{
+  font-size: 80%;
+  margin: 0 $m;
+  height: $m*2;
+}
 
+#main {
+  @include container;
   #Content{
     @include columns(13);
-  }
-
-  #Navigation
-  {
-    background-color: #DDD;
-    @include border-radius;
-    @include box-shadow($quiet-color 1px 1px 2px);
-    padding: $m/2 0;
-    ul{
-      @include inline-list;
-      margin: 0;
-      padding: 0;
-      li{
-        padding: $m/2 $m;
-
-      }
-
-    }
-
-  }
-  #Breadcrumbs
-  {
-    font-size: 80%;
-    margin: 0 $m;
-    height: $m*2;
-
-
   }
   #Sidebar{
     background-color: #DDD;

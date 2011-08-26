@@ -1,32 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
-  <head>
+<!doctype html lang="$ContentLocale" xml:lang="$ContentLocale">
+  <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+  <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+  <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <% base_tag %>
+  <% base_tag %>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8" />
 
-    <title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; ADD TITLE </title>
+  $MetaTags
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    $MetaTags(false)
+  <link rel="stylesheet" href="$ThemeDir/css/screen.css">
 
-    <link rel="stylesheet" href="$ThemeDir/css/screen.css" type="text/css" media="screen"  charset="utf-8">
-    <link rel="print" href="$ThemeDir/css/print.css" type="text/css" media="print"  charset="utf-8">
-
-    <script src="http://www.google.com/jsapi" charset="utf-8" type="text/javascript"></script>
-    <script src="$ThemeDir/js/application.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="shortcut icon" href="$ThemeDir/images/favicon.png" />
-
-
-    <!--[if IE 6]>
-      <link rel="stylesheet" href="$ThemeDir/css/ie.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <![endif]-->
-
-    <!--[if IE 6]>
-      <link rel="stylesheet" href="$ThemeDir/css/ie7.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <![endif]-->
-
-
+    <script src="$ThemeDir/js/libs/modernizr-2.0.6.min.js"></script>
   </head>
-
-  <body>
-   <div id="main" >
-     <div class="container" class="$ClassName">

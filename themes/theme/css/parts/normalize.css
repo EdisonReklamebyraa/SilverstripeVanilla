@@ -5,7 +5,7 @@
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-/* line 11, ../sass/parts/normalize.scss */
+/* line 11, ../../sass/parts/normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
@@ -13,7 +13,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-/* line 18, ../sass/parts/normalize.scss */
+/* line 18, ../../sass/parts/normalize.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
@@ -23,7 +23,7 @@ audio, canvas, video {
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  */
-/* line 27, ../sass/parts/normalize.scss */
+/* line 27, ../../sass/parts/normalize.scss */
 audio:not([controls]), [hidden] {
   display: none;
 }
@@ -42,7 +42,7 @@ audio:not([controls]), [hidden] {
  * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 47, ../sass/parts/normalize.scss */
+/* line 47, ../../sass/parts/normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -57,7 +57,7 @@ html {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-/* line 61, ../sass/parts/normalize.scss */
+/* line 61, ../../sass/parts/normalize.scss */
 body {
   margin: 0;
   font-family: sans-serif;
@@ -66,7 +66,7 @@ body {
 /* 
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-/* line 69, ../sass/parts/normalize.scss */
+/* line 69, ../../sass/parts/normalize.scss */
 button, input, select, textarea {
   font-family: sans-serif;
 }
@@ -74,19 +74,19 @@ button, input, select, textarea {
 /* =============================================================================
    Links
    ========================================================================== */
-/* line 76, ../sass/parts/normalize.scss */
+/* line 76, ../../sass/parts/normalize.scss */
 a {
   color: #00e;
 }
-/* line 78, ../sass/parts/normalize.scss */
+/* line 78, ../../sass/parts/normalize.scss */
 a:visited {
   color: #551a8b;
 }
-/* line 80, ../sass/parts/normalize.scss */
+/* line 80, ../../sass/parts/normalize.scss */
 a:focus {
   outline: thin dotted;
 }
-/* line 82, ../sass/parts/normalize.scss */
+/* line 82, ../../sass/parts/normalize.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -104,7 +104,7 @@ a:hover, a:active {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-/* line 102, ../sass/parts/normalize.scss */
+/* line 102, ../../sass/parts/normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -112,12 +112,12 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3/4, S4/5, Chrome
 */
-/* line 109, ../sass/parts/normalize.scss */
+/* line 109, ../../sass/parts/normalize.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 112, ../sass/parts/normalize.scss */
+/* line 112, ../../sass/parts/normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -125,7 +125,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-/* line 119, ../sass/parts/normalize.scss */
+/* line 119, ../../sass/parts/normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -133,7 +133,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-/* line 126, ../sass/parts/normalize.scss */
+/* line 126, ../../sass/parts/normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -143,7 +143,7 @@ mark {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-/* line 135, ../sass/parts/normalize.scss */
+/* line 135, ../../sass/parts/normalize.scss */
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
@@ -153,7 +153,7 @@ pre, code, kbd, samp {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-/* line 144, ../sass/parts/normalize.scss */
+/* line 144, ../../sass/parts/normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -165,18 +165,18 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-/* line 156, ../sass/parts/normalize.scss */
+/* line 156, ../../sass/parts/normalize.scss */
 q {
   quotes: none;
 }
-/* line 158, ../sass/parts/normalize.scss */
+/* line 158, ../../sass/parts/normalize.scss */
 q:before, q:after {
   content: '';
   content: none;
 }
 
 /* 2 */
-/* line 164, ../sass/parts/normalize.scss */
+/* line 164, ../../sass/parts/normalize.scss */
 small {
   font-size: 75%;
 }
@@ -185,7 +185,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-/* line 172, ../sass/parts/normalize.scss */
+/* line 172, ../../sass/parts/normalize.scss */
 sub {
   font-size: 75%;
   line-height: 0;
@@ -193,7 +193,7 @@ sub {
   vertical-align: baseline;
 }
 
-/* line 178, ../sass/parts/normalize.scss */
+/* line 178, ../../sass/parts/normalize.scss */
 sup {
   font-size: 75%;
   line-height: 0;
@@ -202,7 +202,7 @@ sup {
   top: -0.5em;
 }
 
-/* line 185, ../sass/parts/normalize.scss */
+/* line 185, ../../sass/parts/normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -210,18 +210,18 @@ sub {
 /* =============================================================================
    Lists
    ========================================================================== */
-/* line 192, ../sass/parts/normalize.scss */
+/* line 192, ../../sass/parts/normalize.scss */
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 40px;
 }
 
-/* line 196, ../sass/parts/normalize.scss */
+/* line 196, ../../sass/parts/normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 200, ../sass/parts/normalize.scss */
+/* line 200, ../../sass/parts/normalize.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -235,7 +235,7 @@ nav ul, nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 214, ../sass/parts/normalize.scss */
+/* line 214, ../../sass/parts/normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -246,7 +246,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9 
  */
-/* line 224, ../sass/parts/normalize.scss */
+/* line 224, ../../sass/parts/normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -257,7 +257,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-/* line 235, ../sass/parts/normalize.scss */
+/* line 235, ../../sass/parts/normalize.scss */
 figure, form {
   margin: 0;
 }
@@ -271,7 +271,7 @@ figure, form {
 /*
  * Define consistent margin and padding
  */
-/* line 250, ../sass/parts/normalize.scss */
+/* line 250, ../../sass/parts/normalize.scss */
 fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
@@ -281,7 +281,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE6/7/8/9
  * 2. Corrects alignment displayed oddly in IE6/7
  */
-/* line 259, ../sass/parts/normalize.scss */
+/* line 259, ../../sass/parts/normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -294,7 +294,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, F3/4, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-/* line 271, ../sass/parts/normalize.scss */
+/* line 271, ../../sass/parts/normalize.scss */
 button, input, select, textarea {
   font-size: 100%;
   /* 1 */
@@ -310,7 +310,7 @@ button, input, select, textarea {
  * 1. Addresses FF3/4 setting line-height using !important in the UA stylesheet
  * 2. Corrects inner spacing displayed oddly in IE6/7
  */
-/* line 286, ../sass/parts/normalize.scss */
+/* line 286, ../../sass/parts/normalize.scss */
 button, input {
   line-height: normal;
   /* 1 */
@@ -322,7 +322,7 @@ button, input {
  * Corrects overlap and whitespace issue for buttons and inputs in IE6/7
  * Known issue: reintroduces inner spacing
  */
-/* line 298, ../sass/parts/normalize.scss */
+/* line 298, ../../sass/parts/normalize.scss */
 table button, table input {
   *overflow: auto;
 }
@@ -331,7 +331,7 @@ table button, table input {
  * 1. Improves usability and consistency of cursor style between image-type 'input' and others
  * 2. Corrects inability to style clickable 'input' types in iOS
  */
-/* line 306, ../sass/parts/normalize.scss */
+/* line 306, ../../sass/parts/normalize.scss */
 button, html input[type="button"] {
   cursor: pointer;
   /* 1 */
@@ -339,21 +339,21 @@ button, html input[type="button"] {
   /* 2 */
 }
 
-/* line 313, ../sass/parts/normalize.scss */
+/* line 313, ../../sass/parts/normalize.scss */
 input[type="reset"], input[type="submit"] {
   cursor: pointer;
   /* 1 */
   -webkit-appearance: button;
   /* 2 */
 }
-/* line 318, ../sass/parts/normalize.scss */
+/* line 318, ../../sass/parts/normalize.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
 }
-/* line 323, ../sass/parts/normalize.scss */
+/* line 323, ../../sass/parts/normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -362,7 +362,7 @@ input[type="search"] {
   /* 2 */
   box-sizing: content-box;
 }
-/* line 330, ../sass/parts/normalize.scss */
+/* line 330, ../../sass/parts/normalize.scss */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -382,7 +382,7 @@ input[type="search"]::-webkit-search-decoration {
  * Corrects inner padding and border displayed oddly in FF3/4
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-/* line 352, ../sass/parts/normalize.scss */
+/* line 352, ../../sass/parts/normalize.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -392,7 +392,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-/* line 361, ../sass/parts/normalize.scss */
+/* line 361, ../../sass/parts/normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -406,167 +406,8 @@ textarea {
 /* 
  * Remove most spacing between table cells
  */
-/* line 375, ../sass/parts/normalize.scss */
+/* line 375, ../../sass/parts/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-/* Layout ------------------------------------------------------------------*/
-/* line 8, ../sass/screen.scss */
-body {
-  font-family: Verdana, Tahoma, Helvetica, Arial, sans-serif;
-  color: #444444;
-}
-/* line 10, ../sass/screen.scss */
-body a {
-  color: #111111;
-  text-decoration: none;
-}
-/* line 18, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body a:visited {
-  color: #111111;
-}
-/* line 21, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body a:focus {
-  color: #111111;
-}
-/* line 24, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body a:hover {
-  color: #111111;
-}
-/* line 27, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-body a:active {
-  color: #111111;
-}
-/* line 4, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_hover-link.scss */
-body a:hover {
-  text-decoration: underline;
-}
-
-/* line 18, ../sass/screen.scss */
-#Navigation {
-  background-color: #384752;
-  -moz-box-shadow: #aaaaaa 1px 1px 2px;
-  -webkit-box-shadow: #aaaaaa 1px 1px 2px;
-  -o-box-shadow: #aaaaaa 1px 1px 2px;
-  box-shadow: #aaaaaa 1px 1px 2px;
-  padding: 0;
-}
-/* line 22, ../sass/screen.scss */
-#Navigation ul {
-  *zoom: 1;
-  margin: auto;
-  width: 96em;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-/* line 38, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#Navigation ul:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 26, ../sass/screen.scss */
-#Navigation ul li {
-  padding: 0.5em 1em;
-  float: right;
-}
-/* line 30, ../sass/screen.scss */
-#Navigation ul li a {
-  color: #7bb934;
-  text-decoration: none;
-}
-/* line 18, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#Navigation ul li a:visited {
-  color: #7bb934;
-}
-/* line 21, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#Navigation ul li a:focus {
-  color: #7bb934;
-}
-/* line 24, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#Navigation ul li a:hover {
-  color: #0095d8;
-}
-/* line 27, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
-#Navigation ul li a:active {
-  color: #7bb934;
-}
-
-/* line 39, ../sass/screen.scss */
-#top {
-  *zoom: 1;
-  margin: auto;
-  width: 96em;
-  max-width: 100%;
-}
-/* line 38, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#top:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 44, ../sass/screen.scss */
-#Breadcrumbs {
-  font-size: 80%;
-  margin: 0 1em;
-  height: 2em;
-}
-
-/* line 50, ../sass/screen.scss */
-#main {
-  *zoom: 1;
-  margin: auto;
-  width: 96em;
-  max-width: 100%;
-}
-/* line 38, ../../../../../../../../Users/mario/.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#main:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 52, ../sass/screen.scss */
-#main #Content {
-  display: inline;
-  float: left;
-  width: 79.167%;
-  margin-right: 2.083%;
-}
-/* line 55, ../sass/screen.scss */
-#main #Sidebar {
-  background-color: #DDD;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  -moz-box-shadow: #aaaaaa 1px 1px 2px;
-  -webkit-box-shadow: #aaaaaa 1px 1px 2px;
-  -o-box-shadow: #aaaaaa 1px 1px 2px;
-  box-shadow: #aaaaaa 1px 1px 2px;
-  display: inline;
-  float: left;
-  width: 16.667%;
-  margin-right: 2.083%;
-}
-/* line 60, ../sass/screen.scss */
-#main #Sidebar h3 {
-  padding: 0 0 0 1em;
-}
-/* line 63, ../sass/screen.scss */
-#main #Sidebar #SideNavigation {
-  margin: 0;
-  padding: 0;
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0px;
-}
-/* line 67, ../sass/screen.scss */
-#main #Sidebar #SideNavigation li {
-  padding: 0.5em 1em;
 }
